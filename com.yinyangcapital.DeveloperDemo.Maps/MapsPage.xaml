@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:com.yinyangcapital.DeveloperDemo.Maps" x:Class="com.yinyangcapital.DeveloperDemo.Maps.com_yinyangcapital_DeveloperDemo_MapsPage" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <ContentPage.BindingContext>
+        <local:MapsPageViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <maps:Map HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        <Button  BackgroundColor="Gray" TextColor="White" Text="Place Pins"/>
+    </StackLayout>
+</ContentPage>
